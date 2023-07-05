@@ -1,5 +1,4 @@
-import TextField from './components/TextField';
-import DropdownField from './components/DropdownField';
+import Form from './components/Form';
 
 function App() {
 
@@ -50,9 +49,7 @@ function App() {
 
     return (
     <>
-      <TextField />
-      <DropdownField label="Slot" options={slots} />
-      <DropdownField label="Rarity" options={rarities.map(option => option.rarity)} color={rarities.map(option => option.cor)}/>
+      <Form slots={slots} rarities={rarities}/>
     </>
   );
 }

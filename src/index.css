@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 :root {
   --color-background: #101010;
+  --color-background2: #9090900c;
+
 
   /* Text */
   --standard-font: 'Open Sans', sans-serif; 
@@ -38,3 +40,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -10,8 +10,3 @@
 .dropdown-field label {
     display: block;
 }
-
-.dropdown-field select.rare {
-    font-size: 40px;
-    color: #00F;
-}
