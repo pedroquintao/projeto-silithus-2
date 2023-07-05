@@ -2,7 +2,7 @@ import "./TextField.css"
 
 const TextField = () => {
     return (
-        <div>
+        <div className="name-field">
             <label>Nome</label>
             <input />
         </div>

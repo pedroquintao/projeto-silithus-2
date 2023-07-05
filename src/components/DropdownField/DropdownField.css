@@ -1,12 +1,17 @@
-.name-field {
+.dropdown-field {
     display: block;
 }
-.name-field input {
+.dropdown-field select {
     background-color: var(--field-color-background);
     border: var(--field-border);
     border-radius: var(--field-border-radius);
 }
 
-.name-field label {
+.dropdown-field label {
     display: block;
+}
+
+.dropdown-field select.rare {
+    font-size: 40px;
+    color: #00F;
 }
