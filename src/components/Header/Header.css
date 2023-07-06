@@ -1,14 +1,18 @@
 header {
     background-color: var(--black-0);
+    padding: 0.5px;
 }
 
 header ul{
     display: flex;
+    justify-content: space-evenly;
     gap: 32px;
     list-style: none;
+    font-size: 3rem;
 }
 
 header ul a{
+    color: var(--grey-0);
     text-decoration: none;
     color: var(--);
 }

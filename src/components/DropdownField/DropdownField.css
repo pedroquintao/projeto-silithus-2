@@ -1,13 +1,20 @@
 .dropdown-field {
     display: block;
+    width: 100%;
+    text-align: center;
 }
 .dropdown-field select {
     background-color: var(--black-2);
     border: var(--field-border);
     border-radius: var(--field-border-radius);
     color: var(--grey-0);
+    font-size: 100%;
+    width: 25%;
+    height: 75%;
 }
 
 .dropdown-field label {
+    margin-bottom: 16px;
     display: block;
+    font-size: 2em;
 }

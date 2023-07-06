@@ -7,6 +7,8 @@ const Form = ({slots, rarities}) => {
     return(
         <section>
             <form>
+                <h1>Item Registration</h1>
+                <h2>Fill in the forms with the data of the item you want to register:</h2>
                 <TextField />
                 <DropdownField label="Slot" options={slots} />
                 <DropdownField label="Rarity" options={rarities.map(option => option.rarity)} color={rarities.map(option => option.cor)}/>

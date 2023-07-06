@@ -2,7 +2,15 @@ form {
     background-color: var(--black-2);
     display: flex;
     flex-direction: column;
-    width: 25%;
-    padding: 16px;
+    align-items: center;
+    gap: 64px;
+    width: auto;
+    margin: 64px;
+    padding: 64px;
     border-radius: 16px;
+}
+
+form h1 {
+    font-size: 3em;
+    color: var(--yellow-0);
 }
