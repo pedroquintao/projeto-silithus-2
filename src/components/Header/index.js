@@ -2,13 +2,13 @@ import "./Header.css"
 
 const Header = () => {
     return (
-        <header className="headere">
+        <header>
             <ul>
                 <li>
                     <a href="">HOME</a>
                 </li>
                 <li>
-                    <a href="">REGISTER</a>
+                    <a href="">CREATE</a>
                 </li>
                 <li>
                     <a href="">ITEMS</a>

@@ -5,12 +5,14 @@ form {
     align-items: center;
     gap: 64px;
     width: auto;
-    margin: 64px;
-    padding: 64px;
+    height: 66vh;
+    margin: 32px;
+    padding: 16px;
     border-radius: 16px;
 }
 
 form h1 {
-    font-size: 3em;
+    font-size: 2em;
     color: var(--yellow-0);
+    /* font-weight: 700; */
 }
