@@ -2,7 +2,7 @@
     display: block;
 }
 .name-field input {
-    background-color: var(--field-color-background);
+    background-color: var(--black-2);
     border: var(--field-border);
     border-radius: var(--field-border-radius);
 }

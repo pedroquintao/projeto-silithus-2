@@ -2,9 +2,10 @@
     display: block;
 }
 .dropdown-field select {
-    background-color: var(--field-color-background);
+    background-color: var(--black-2);
     border: var(--field-border);
     border-radius: var(--field-border-radius);
+    color: var(--grey-0);
 }
 
 .dropdown-field label {

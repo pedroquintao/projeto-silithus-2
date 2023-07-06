@@ -1,0 +1,14 @@
+header {
+    background-color: var(--black-0);
+}
+
+header ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+header ul a{
+    text-decoration: none;
+    color: var(--);
+}

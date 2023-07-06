@@ -1,0 +1,39 @@
+:root {
+
+    /* Body */
+    --standard-font: 'Open Sans', sans-serif; 
+
+  
+    /*Form Field*/
+    --field-border-radius: 4px;
+    --field-border: 1px solid var(--grey-0);
+    --black-2: #181818;
+    --field-color-hover: #101010;
+    --field-color-placeholder: #777777;
+
+    /* Submit Button */
+    --color-submit-button: #a71a19;
+    --color-submit-button-hover: #a719198d;
+    --color-submit-button-text: #f7b204;
+    --color-submit-button-text-hover: #f7b204;
+    --color-field-hover: #262525;
+    --color-span-error: red;
+
+    --black-0: #000000;
+    --black-1: #101010;
+    --black-2: #181818;
+
+    --white-0: #ffffff;
+
+    --grey-0: #777777;
+    --grey-1: #bbbbb1;
+
+    --red-0: #a71a19;
+    --red-0-hover: #7C1313;
+
+    --yellow-0: #F7B204;
+
+
+
+  }
+
