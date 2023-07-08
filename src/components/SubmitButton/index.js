@@ -2,7 +2,7 @@ import "./SubmitButton.css"
 
 const SubmitButton = (props) => {
     return (
-        <button className="submit-button">
+        <button className="create-button">
             {props.text}
         </button>
     )

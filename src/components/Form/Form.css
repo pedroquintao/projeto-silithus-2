@@ -1,15 +1,29 @@
 .creation-form {
-    background-color: var(--black-2);
-    display: block;
-    /* flex-direction: column; */
-    justify-content: center;
-    width: 92vw;
-    height: 64vh;
-    margin: 32px;
-    border-radius: 16px;
+    margin: 32px 32px;
 }
 
-.creation-form h1 {
+.creation-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--black-2);
+    border-radius: 16px;
+    padding: 36px 64px;
+}
+
+.creation-form .title h1 {
     font-size: 2rem;
     color: var(--yellow-0);
+    font-weight: 700;
+}
+
+.creation-form .title h2 {
+    font-size: 1.25rem;
+    color: var(--grey-1);
+    font-weight: 400;
+}
+
+.creation-form .buttons {
+    margin: 16px 0;
 }
