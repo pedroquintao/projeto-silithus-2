@@ -1,17 +1,22 @@
 .name-field {
-    margin: 16px 0;
-}
-.name-field input {
-    background-color: var(--black-2);
-    border: var(--field-border);
-    border-radius: var(--field-border-radius);
-    width: 200px;
+
 }
 
 .name-field label {
     display: block;
     margin-bottom: 8px;
     color: var(--grey-1);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
+
+.name-field input {
+    background-color: var(--black-2);
+    border: var(--field-border);
+    border-radius: var(--field-border-radius);
+    color: var(--grey-0);
+    font-size: 1rem;
+    width: 32%;
+    min-width: 200px;
+    height: 48%;
+  }

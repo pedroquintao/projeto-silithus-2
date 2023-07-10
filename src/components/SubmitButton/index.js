@@ -3,7 +3,7 @@ import "./SubmitButton.css"
 const SubmitButton = (props) => {
     return (
         <button className="create-button">
-            {props.text}
+            {props.children}
         </button>
     )
 }

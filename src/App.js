@@ -1,6 +1,5 @@
 import Form from './components/Form';
 import Header from './components/Header';
-import "./App.css"
 
 function App() {
 
@@ -52,7 +51,9 @@ function App() {
     return (
     <div className='app'>
       <Header />
-      <Form slots={slots} rarities={rarities}/>
+      <section className='page'>
+        <Form slots={slots} rarities={rarities}/>
+      </section>
     </div>
   );
 }

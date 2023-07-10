@@ -1,17 +1,12 @@
 .creation-form {
-    margin: 32px 32px;
-}
-
-.creation-form form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    background-color: var(--black-2);
-    border-radius: 16px;
-    padding: 36px 64px;
 }
-
+.creation-form .title {
+    /* background-color: blue; */
+}
 .creation-form .title h1 {
     font-size: 2rem;
     color: var(--yellow-0);
@@ -24,6 +19,16 @@
     font-weight: 400;
 }
 
+.creation-form .fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    /* background-color: green; */
+}
+
 .creation-form .buttons {
-    margin: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: purple; */
 }
