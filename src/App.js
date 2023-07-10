@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Form from './components/Form';
 import Header from './components/Header';
 
@@ -54,6 +55,7 @@ function App() {
       <section className='page'>
         <Form slots={slots} rarities={rarities}/>
       </section>
+      <Footer />
     </div>
   );
 }
